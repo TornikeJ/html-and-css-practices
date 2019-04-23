@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color:darkred;
+}
+a{
+    text-align: center;
+    color:darkcyan;
+}
+a:hover{
+    background-color: crimson;
+}
+body{
+    background-color: rgb(77, 0, 0);
+}
+section{
+    text-align: center;
+}
+#FCB{
+    border-style: solid;
+    border-width: 1px;
+    border-color: aqua;
+}
+#Landscape{
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(66, 99, 66);
+}
+#Dogs{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(224, 127, 0, 0.74);
+}
