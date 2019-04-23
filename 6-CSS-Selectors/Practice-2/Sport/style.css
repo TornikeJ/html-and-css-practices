@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(26, 54, 54);
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color:brown;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  
+}
+p{
+    color:rgb(231, 193, 193);
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    border: 2px red solid;
+    
+}
+section{
+    padding: 3%;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color:rgb(228, 62, 62)
+}
+.marvel{
+    background-image: url(Marvel.jpg);
+    background-size:contain;
+}
+.sport{
+    background-image: url(Football.jpg);
+    background-size:cover;
+}
