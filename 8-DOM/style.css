@@ -1,0 +1,21 @@
+.box{
+    width:350px;
+    height:850px;
+    border:1px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+   margin: 5px;
+}
+.iMan{
+    width:350px;
+    height: 748px;
+}
+a{
+    color:gray;
+}
+p{
+    font-weight: bold;
+}
+.text{
+    padding-left: 25px;
+}
