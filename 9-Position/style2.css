@@ -11,7 +11,7 @@
     display:inline-block;
     width: 1600px;
     height: 975px;
-    background-image: url(Avengers.jpg); 
+    background-image: url(Groot.jpg); 
     background-image:contain;
     z-index: 1;
 }
@@ -34,7 +34,7 @@
     z-index: 3; 
 }
 .textBox{
-    background-color: red;
+    background-color: brown;
     color:white;
     padding-left:15px;
     
@@ -46,7 +46,7 @@
 }
 .category{
     position: absolute;
-    background-color:  red;
+    background-color:  brown;
     padding:5px;
     color:white;
     bottom:10%;
@@ -63,7 +63,20 @@
     right: 0%;
     top:50%;
     transform:translateY(-50%);
-    background-color: red;
+    background-color: brown;
+    font-size: 50px;
+    color:white;
+    padding:5px;
+    font-weight: bold;
+    z-index: 3; 
+}
+.scrollBtnLeft{
+    position: absolute;
+    text-decoration: none;
+    left: 0%;
+    top:50%;
+    transform:translateY(-50%);
+    background-color: brown;
     font-size: 50px;
     color:white;
     padding:5px;
