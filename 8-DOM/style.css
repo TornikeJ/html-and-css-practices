@@ -1,21 +1,87 @@
 .box{
     width:350px;
-    height:850px;
+    height:385px;
     border:1px solid gray;
-    border-radius: 5px;
     display: inline-block;
-   margin: 5px;
+    margin: 5px;
 }
-.iMan{
-    width:350px;
-    height: 748px;
+.data{
+    padding-top:10px;
+    border-bottom: 1px solid grey;
+}
+.docImage{
+    padding: 5px 5px 5px 15px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.docText{
+    display:inline-block;
+    vertical-align: middle;
 }
 a{
-    color:gray;
+    color:black;
+    text-decoration: none;
 }
-p{
+.profileImage{
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left:15px
+}
+.profileImage-1{
+ 
+    background-image: url(assets/Deadpool.png);
+   ;
+}   
+.profileImage-2{
+    background-image: url(assets/Wolverine.png);
+} 
+.profileImage-3{
+    background-image: url(assets/Quicksilver.jpg);
+    background-position-x: -33px;
+
+}   
+.text{
+    padding-left: 15px;
+}
+.message{
+    font-size:18px;
+}
+.nameDiv{
+    display: inline-block;
+    vertical-align: top;
     font-weight: bold;
 }
-.text{
+.createDate{
+    vertical-align: bottom;
+    font-size: 13px;
+    font-weight: normal;
+    color:grey; 
+}
+.notification{
+    display:inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-top:25px;   
+}
+.notImage{
+    height: 6%;
+    width: 6%;
+}
+.img2{
+    padding-left: 15px;
+}
+.img3{
     padding-left: 25px;
+}
+.img4{
+    padding-left: 155px;
+}
+.count{
+    display:inline-block;
+    font-size:20px;
+    padding-left: 10px;
+    vertical-align: 25%;
 }
