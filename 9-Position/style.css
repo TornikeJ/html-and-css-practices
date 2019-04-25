@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+.box{
+    position: relative;
+    width: 1200px;
+    height: 675px; 
+}
+.background{
+    position:absolute;
+    display:inline-block;
+    width: 1200px;
+    height: 675px;
+    background-image: url(Avengers.jpg);   
+    z-index: 1;
+}
+.mask{
+    position:absolute;
+    width: 1200px;
+    height: 675px;  
+    background-color:rgb(138, 136, 255);
+    opacity: 0.6;
+    z-index: 2; 
+}
+.text{
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform: translate(50%,-50%);
+    font-size: 100px;
+    font-weight: bold;
+    color:rgb(255, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 3; 
+}
