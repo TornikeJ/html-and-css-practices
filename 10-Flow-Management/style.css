@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 main{
-    width:1056px
+    width:100%;
 }
 .cell{
     height: 100%;
-    min-height: 150px;
+    min-height: 50px;
     float: left;
 }
 .solid{
@@ -18,13 +18,25 @@ main{
     height: 100%;
 }
 .col-1{
-    width:264px;
+    width:80px;
 }
 .col-2{
-    width:528px;
+    width:160px;
+}
+.col-3{
+    width:240px;
+}
+.col-4{
+    width:320px;
 }
 .row-2{
-    min-height: 300px;
+    min-height: 100px;
+}
+.row-3{
+    min-height: 150px;
+}
+.row-4{
+    min-height: 200px;
 }
 .cell:last-of-type {
     margin-right: 0;
@@ -35,3 +47,4 @@ main{
     display: block;
     visibility: hidden;
 }
+
