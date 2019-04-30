@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.cell{
+    min-height: 150px;
+    background-color: blue; 
+    border:3px solid black;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;   
+}
+.col{
+    flex-direction: column;
+}
+.col-1{
+    flex-grow:1;
+}
+.col-2{
+    flex-grow:2;
+}
+.col-3{
+    flex-grow:3;
+}
+.row-2{
+    min-height: 300px;
+}
