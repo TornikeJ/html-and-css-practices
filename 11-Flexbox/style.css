@@ -2,17 +2,15 @@
     box-sizing: border-box;
 }
 main{
-    width:940px;
+    width:1200px;
 }
+   
 .cell{
     min-height: 100px;
     background-color: blue; 
-    margin-bottom: 10px;
-    margin-right: 20px;
+    border:3px solid black;
 }
-.row .col:last-child .cell{
-    margin-right:0;
-}
+
 .row{
     display:flex;
     justify-content: center;
@@ -28,9 +26,20 @@ main{
     flex-grow:2;
 }
 .col-3{
-    flex-grow:3.18;
+    flex-grow:3;
 }
-
+.col-4{
+    flex-grow:4;
+}
+.col-5{
+    flex-grow:5;
+}
 .row-2{
-    min-height: 200px;
+    height: 200px;
+}
+.row-3{
+    height: 300px;
+}
+.row-4{
+    height: 400px;
 }
