@@ -1,10 +1,17 @@
 *{
     box-sizing: border-box;
 }
+main{
+    width:940px;
+}
 .cell{
     min-height: 100px;
     background-color: blue; 
-    border:3px solid black;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.row .col:last-child .cell{
+    margin-right:0;
 }
 .row{
     display:flex;
@@ -21,8 +28,9 @@
     flex-grow:2;
 }
 .col-3{
-    flex-grow:3;
+    flex-grow:3.18;
 }
+
 .row-2{
     min-height: 200px;
 }
