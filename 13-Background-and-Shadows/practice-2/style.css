@@ -1,0 +1,88 @@
+    /*PTSans-Bold*/
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PT Sans Bold'), local('PTSans-Bold'), 
+    url(font/PTsans-Bold.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+}
+.Main-Image{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-image:url(media/Background-Main.png);
+    background-repeat:no-repeat;
+    background-position-y: 64%;
+    background-size:cover;
+}
+
+.Effects{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-image:url(media/Background-Effects.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transform:scale(1.1);
+    
+}
+section .Effects::before{
+    content:'';
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(
+        0deg,
+        rgba(0,0,0,1) 0%,
+        rgba(0,0,0,0.81) 28%,
+        rgba(0,0,0,0.67) 38%,
+        rgba(0,0,0,0) 100%
+    );
+}
+
+section .Effects::after{
+    content:'';
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(72,149,226,0.87);
+    opacity: 0.44;
+}
+h1{
+    position: absolute;
+    font-family:'PT Sans';
+    font-size:200px; 
+    text-transform: uppercase;
+    color:white;
+    margin: 55.5px 23px;
+    letter-spacing: 40px;
+}
